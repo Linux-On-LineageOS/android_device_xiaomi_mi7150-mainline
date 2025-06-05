@@ -55,3 +55,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor
 $(call inherit-product-if-exists, vendor/xiaomi/mi7150-mainline/mi7150-mainline-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
